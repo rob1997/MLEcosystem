@@ -1,27 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af6472da-6cfa-4493-bfa9-9e3cba5b8fe0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/Game_01_timers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Timers/Game_01_timers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/Training_01_timers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Timers/Training_01_timers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Agent.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Agent.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game_01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game_01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Training_01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Training_01.unity" afterDir="false" />
+    <list default="true" id="af6472da-6cfa-4493-bfa9-9e3cba5b8fe0" name="Default Changelist" comment="animal_03&#10; - Discrete Agent - Only has forward and yaw with only front ray sensors.&#10; _ Uses raycast for feeding.">
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9dca6c-e21e13fa56bb3d7459.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9dca6c-e21e13fa56bb3d7459.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9dca6c-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9dca6c-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/4f38cd-e21e13fa56bb3d7459.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/4f38cd-e21e13fa56bb3d7459.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/4f38cd-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/4f38cd-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,25 +64,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="95" column="9" lean-forward="true" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+            <state relative-caret-position="128">
+              <caret line="94" column="53" selection-start-line="94" selection-start-column="53" selection-end-line="94" selection-end-column="53" />
               <folding>
-                <marker date="1603064560616" expanded="true" signature="6:210" ph="..." />
-                <marker date="1603064560616" expanded="true" signature="239:4083" ph="{...}" />
-                <marker date="1603064560616" expanded="true" signature="620:688" ph="{...}" />
-                <marker date="1603064560616" expanded="true" signature="735:1049" ph="{...}" />
-                <marker date="1603064560616" expanded="true" signature="1059:1414" ph="/// Called when an action is received from player input or the neural network ... " />
-                <marker date="1603064560616" expanded="true" signature="1482:2308" ph="{...}" />
-                <marker date="1603064560616" expanded="true" signature="1751:1882" ph="{...}" />
-                <marker date="1603064560616" expanded="true" signature="1920:2154" ph="{...}" />
-                <marker date="1603064560616" expanded="true" signature="2318:2474" ph="/// Collect vector observations from the environment ... " />
-                <marker date="1603064560616" expanded="true" signature="2544:2936" ph="{...}" />
-                <marker date="1603064560616" expanded="true" signature="2995:3334" ph="{...}" />
-                <marker date="1603064560616" expanded="true" signature="3378:3418" ph="{...}" />
-                <marker date="1603064560616" expanded="true" signature="3447:3872" ph="{...}" />
-                <marker date="1603064560616" expanded="true" signature="3599:3862" ph="{...}" />
-                <marker date="1603064560616" expanded="true" signature="3936:4072" ph="{...}" />
-                <marker date="1603064560616" expanded="true" signature="4001:4062" ph="{...}" />
+                <marker date="1603071141745" expanded="true" signature="6:210" ph="..." />
+                <marker date="1603071141745" expanded="true" signature="239:4083" ph="{...}" />
+                <marker date="1603071141745" expanded="true" signature="620:688" ph="{...}" />
+                <marker date="1603071141745" expanded="true" signature="735:1049" ph="{...}" />
+                <marker date="1603071141745" expanded="true" signature="1059:1414" ph="/// Called when an action is received from player input or the neural network ... " />
+                <marker date="1603071141745" expanded="true" signature="1482:2308" ph="{...}" />
+                <marker date="1603071141745" expanded="true" signature="1751:1882" ph="{...}" />
+                <marker date="1603071141745" expanded="true" signature="1920:2154" ph="{...}" />
+                <marker date="1603071141745" expanded="true" signature="2318:2474" ph="/// Collect vector observations from the environment ... " />
+                <marker date="1603071141745" expanded="true" signature="2544:2936" ph="{...}" />
+                <marker date="1603071141745" expanded="true" signature="2995:3334" ph="{...}" />
+                <marker date="1603071141745" expanded="true" signature="3378:3418" ph="{...}" />
+                <marker date="1603071141745" expanded="true" signature="3447:3872" ph="{...}" />
+                <marker date="1603071141745" expanded="true" signature="3599:3862" ph="{...}" />
+                <marker date="1603071141745" expanded="true" signature="3936:4072" ph="{...}" />
+                <marker date="1603071141745" expanded="true" signature="4001:4062" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -225,7 +206,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14462000" />
+    <option name="totallyTimeSpent" value="14702000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,25 +351,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="95" column="9" lean-forward="true" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+        <state relative-caret-position="128">
+          <caret line="94" column="53" selection-start-line="94" selection-start-column="53" selection-end-line="94" selection-end-column="53" />
           <folding>
-            <marker date="1603064560616" expanded="true" signature="6:210" ph="..." />
-            <marker date="1603064560616" expanded="true" signature="239:4083" ph="{...}" />
-            <marker date="1603064560616" expanded="true" signature="620:688" ph="{...}" />
-            <marker date="1603064560616" expanded="true" signature="735:1049" ph="{...}" />
-            <marker date="1603064560616" expanded="true" signature="1059:1414" ph="/// Called when an action is received from player input or the neural network ... " />
-            <marker date="1603064560616" expanded="true" signature="1482:2308" ph="{...}" />
-            <marker date="1603064560616" expanded="true" signature="1751:1882" ph="{...}" />
-            <marker date="1603064560616" expanded="true" signature="1920:2154" ph="{...}" />
-            <marker date="1603064560616" expanded="true" signature="2318:2474" ph="/// Collect vector observations from the environment ... " />
-            <marker date="1603064560616" expanded="true" signature="2544:2936" ph="{...}" />
-            <marker date="1603064560616" expanded="true" signature="2995:3334" ph="{...}" />
-            <marker date="1603064560616" expanded="true" signature="3378:3418" ph="{...}" />
-            <marker date="1603064560616" expanded="true" signature="3447:3872" ph="{...}" />
-            <marker date="1603064560616" expanded="true" signature="3599:3862" ph="{...}" />
-            <marker date="1603064560616" expanded="true" signature="3936:4072" ph="{...}" />
-            <marker date="1603064560616" expanded="true" signature="4001:4062" ph="{...}" />
+            <marker date="1603071141745" expanded="true" signature="6:210" ph="..." />
+            <marker date="1603071141745" expanded="true" signature="239:4083" ph="{...}" />
+            <marker date="1603071141745" expanded="true" signature="620:688" ph="{...}" />
+            <marker date="1603071141745" expanded="true" signature="735:1049" ph="{...}" />
+            <marker date="1603071141745" expanded="true" signature="1059:1414" ph="/// Called when an action is received from player input or the neural network ... " />
+            <marker date="1603071141745" expanded="true" signature="1482:2308" ph="{...}" />
+            <marker date="1603071141745" expanded="true" signature="1751:1882" ph="{...}" />
+            <marker date="1603071141745" expanded="true" signature="1920:2154" ph="{...}" />
+            <marker date="1603071141745" expanded="true" signature="2318:2474" ph="/// Collect vector observations from the environment ... " />
+            <marker date="1603071141745" expanded="true" signature="2544:2936" ph="{...}" />
+            <marker date="1603071141745" expanded="true" signature="2995:3334" ph="{...}" />
+            <marker date="1603071141745" expanded="true" signature="3378:3418" ph="{...}" />
+            <marker date="1603071141745" expanded="true" signature="3447:3872" ph="{...}" />
+            <marker date="1603071141745" expanded="true" signature="3599:3862" ph="{...}" />
+            <marker date="1603071141745" expanded="true" signature="3936:4072" ph="{...}" />
+            <marker date="1603071141745" expanded="true" signature="4001:4062" ph="{...}" />
           </folding>
         </state>
       </provider>

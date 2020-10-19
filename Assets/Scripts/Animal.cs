@@ -92,7 +92,7 @@ public class Animal : Agent
             sensor.AddObservation(localVelocity.z);
             
             //4 observations
-            sensor.AddObservation(transform.localRotation.normalized);
+            sensor.AddObservation(transform.rotation.normalized);
         }
 
         public override void Heuristic(float[] actionOut)
