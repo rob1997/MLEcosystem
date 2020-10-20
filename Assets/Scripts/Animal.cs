@@ -86,13 +86,17 @@ public class Animal : Agent
             Vector3 localVelocity = transform.InverseTransformDirection(_rBody.velocity);
 
             //1 observation
+            //mean reward lesser without this observation
             sensor.AddObservation(localVelocity.x);
             
             //1 observation
+            //mean reward lesser without this observation
             sensor.AddObservation(localVelocity.z);
             
             //4 observations
-            sensor.AddObservation(transform.rotation.normalized);
+            //This can be global (no significant difference)
+            //Slower training and lesser mean reward without this observation
+            sensor.AddObservation(transform.localRotation.normalized);
         }
 
         public override void Heuristic(float[] actionOut)
