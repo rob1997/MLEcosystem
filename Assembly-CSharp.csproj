@@ -61,7 +61,10 @@
      <Compile Include="Assets\Scripts\Animal.cs" />
      <Compile Include="Assets\Scripts\Food.cs" />
      <Compile Include="Assets\Scripts\FoodArea.cs" />
+     <Compile Include="Assets\Scripts\Grass.cs" />
      <Compile Include="Assets\Scripts\Input\InputMaster.cs" />
+     <Compile Include="Assets\Scripts\Meat.cs" />
+     <Compile Include="Assets\Scripts\Obstacle.cs" />
      <Compile Include="Assets\Scripts\Utils\Spawner.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Robel/Documents/Unity/Projects/MLEcosystem/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

@@ -10,9 +10,12 @@
           <e p="Animal.cs" t="Include" />
           <e p="Food.cs" t="Include" />
           <e p="FoodArea.cs" t="Include" />
+          <e p="Grass.cs" t="Include" />
           <e p="Input" t="Include">
             <e p="InputMaster.cs" t="Include" />
           </e>
+          <e p="Meat.cs" t="Include" />
+          <e p="Obstacle.cs" t="Include" />
           <e p="Utils" t="Include">
             <e p="Spawner.cs" t="Include" />
           </e>

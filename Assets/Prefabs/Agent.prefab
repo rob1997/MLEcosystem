@@ -221,6 +221,7 @@ MonoBehaviour:
     m_Bits: 55
   foodArea: {fileID: 0}
   nose: {fileID: 7454542383610165192}
+  foodTag: food
 --- !u!114 &3071060207411334068
 MonoBehaviour:
   m_ObjectHideFlags: 0

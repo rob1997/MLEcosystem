@@ -21,6 +21,9 @@ public class Animal : Agent
         
         [SerializeField] private Transform nose;
 
+        [Tooltip("this needs to match the detectable tags on Rays Food sensor")]
+        [SerializeField] private string foodTag;
+        
         float FoodObtained { get; set; }
 
         public override void Initialize()
@@ -120,7 +123,7 @@ public class Animal : Agent
         private void Feed()
         {
             if (Physics.Raycast(nose.position, nose.forward, out RaycastHit hitInfo) 
-                && hitInfo.collider.CompareTag("food"))
+                && hitInfo.collider.CompareTag(foodTag))
             {
                 Food food = hitInfo.collider.GetComponent<Food>();
 
@@ -134,7 +137,7 @@ public class Animal : Agent
         
         private void OnCollisionEnter(Collision other)
         {
-            if (other.collider.CompareTag("boundary"))
+            if (other.collider.CompareTag("boundary") || other.collider.CompareTag(tag))
             {
                 AddReward(-.5f);
             }
