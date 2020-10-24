@@ -8,4 +8,13 @@ public class Meat : Food
     {
         ResetFood();
     }
+    
+    public override void ResetFood()
+    {
+        base.ResetFood();
+
+        Animal animal = GetComponent<Animal>();
+        
+        transform.Spawn(animal.foodArea.radius, Random.Range(1.5f, 2.5f), animal.groundMask);
+    }
 }

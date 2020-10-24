@@ -15,9 +15,9 @@ public class Obstacle : MonoBehaviour
 
     private void Update()
     {
-        if (Keyboard.current.aKey.wasPressedThisFrame)
-        {
-            transform.Spawn(200f, 5f, groundMask);
-        }
+//        if (Keyboard.current.aKey.wasPressedThisFrame)
+//        {
+//            transform.Spawn(200f, 5f, groundMask);
+//        }
     }
 }

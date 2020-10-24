@@ -15,9 +15,9 @@ public class Animal : Agent
         
         private Rigidbody _rBody;
 
-        [SerializeField] private LayerMask groundMask;
+        public LayerMask groundMask;
         
-        [SerializeField] private FoodArea foodArea;
+        public FoodArea foodArea;
         
         [SerializeField] private Transform nose;
 
@@ -122,7 +122,7 @@ public class Animal : Agent
 
         private void Feed()
         {
-            if (Physics.Raycast(nose.position, nose.forward, out RaycastHit hitInfo) 
+            if (Physics.Raycast(nose.position, nose.forward, out RaycastHit hitInfo, groundMask)
                 && hitInfo.collider.CompareTag(foodTag))
             {
                 Food food = hitInfo.collider.GetComponent<Food>();
@@ -132,6 +132,12 @@ public class Animal : Agent
                 FoodObtained += foodReceived;
                 
                 AddReward(.01f);
+
+                //punish herbivores for being eaten
+                if (food.TryGetComponent(out Agent agent))
+                {
+                    agent.AddReward(-.01f);
+                }
             }
         }
         

@@ -20,7 +20,7 @@ PrefabInstance:
     - target: {fileID: 1589091014591783016, guid: e21e13fa56bb3d7459755022c3329014,
         type: 3}
       propertyPath: TeamId
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1589091014591783016, guid: e21e13fa56bb3d7459755022c3329014,
         type: 3}
@@ -97,5 +97,15 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1fe460ebd875b61488d31301cd495ba2, type: 2}
+    - target: {fileID: 9179574234795736049, guid: e21e13fa56bb3d7459755022c3329014,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179574234795736049, guid: e21e13fa56bb3d7459755022c3329014,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: carnivore
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e21e13fa56bb3d7459755022c3329014, type: 3}
