@@ -1,10 +1,13 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public abstract class Food : MonoBehaviour
 {
     protected float Amount { get; private set; }
 
     [SerializeField] protected float fullAmount;
+
+    protected virtual void Awake() => Amount = fullAmount;
 
     public float Feed(float amount)
     {

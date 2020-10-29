@@ -24,8 +24,10 @@ public class Grass : Food
     
     [SerializeField] private LayerMask groundMask;
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
+        
         _foodCollider = GetComponent<Collider>();
         _foodRenderer = GetComponent<Renderer>();
     }

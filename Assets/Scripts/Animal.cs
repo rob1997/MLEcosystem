@@ -132,11 +132,11 @@ public class Animal : Agent
                 FoodObtained += foodReceived;
                 
                 AddReward(.01f);
-
-                //punish herbivores for being eaten
-                if (food.TryGetComponent(out Agent agent))
+                
+                if (hitInfo.collider.TryGetComponent(out Agent agent))
                 {
-                    agent.AddReward(-.01f);
+                    //punish herbivores for being eaten
+                    agent.AddReward(-.05f);
                 }
             }
         }
@@ -147,6 +147,12 @@ public class Animal : Agent
             {
                 AddReward(-.5f);
             }
+
+//            if (other.collider.CompareTag(foodTag) && other.collider.TryGetComponent(out Agent agent))
+//            {
+//                //punish herbivores for being eaten
+//                agent.AddReward(-.5f);
+//            }
         }
         
 }
